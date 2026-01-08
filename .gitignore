@@ -1,0 +1,33 @@
+# Create fresh .gitignore
+@"
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Package lock
+package-lock.json
+"@ | Out-File .gitignore -Encoding UTF8
